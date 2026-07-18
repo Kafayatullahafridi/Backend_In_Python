@@ -14,6 +14,9 @@ elif(marks <=59 and marks>=50 ):
     print(f"Your marks are  : {marks}\n Grade is D , Pass")
 elif(marks <=49):
     print(f"Your marks are  : {marks}\n Grade is F ,fail ")
+    
+else:
+    print('Invalid marks')
 
     
     

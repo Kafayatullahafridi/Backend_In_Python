@@ -9,10 +9,10 @@ temprature  = float(input("Enter temprature you wants to convert :"))
 
 if(user_input == option_1):
     celsius =  (temprature -32)*5/9
-    print(f"The temprature in Celsius is : {celsius}")
+    print(f"The temprature in Celsius is : {celsius} C")
 elif(user_input ==option_2):
     fahrenheit = (temprature + 9/5)+32
-    print(f"Temprature in Fahrenheit is : {fahrenheit}")
+    print(f"Temprature in Fahrenheit is : {fahrenheit} F")
     
 else: 
     print("Invalid option , try again")
