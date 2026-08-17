@@ -35,9 +35,12 @@ scores = {
     "Hamza": 88
 }
 high =0
+name =None
 for key,value in scores.items():
    
-    if value >high:
+    if  value >high:
         high =value
+        name= key
+        
         
 print(f'{key} scored {high}')
