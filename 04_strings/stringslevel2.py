@@ -17,4 +17,4 @@ username = email[0:find]
 domain= email[find+1:]
 print(username)
 print(domain)
-
+domain.i

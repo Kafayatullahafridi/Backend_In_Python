@@ -8,3 +8,10 @@ empty = {}#empty set is dictonary
 print(type(empty))
 empty = set()
 print(type(empty))
+#set are unordered
+numbers = [10, 20, 30]
+
+numbers[0]#will cause errror
+numbers.update({8, 9})
+numbers.discard(3)
+numbers.discard(99)

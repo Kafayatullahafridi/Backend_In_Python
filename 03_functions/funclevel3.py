@@ -71,3 +71,16 @@ user = create_user(
     country="Pakistan",
     active=True
 )
+
+def test(a, *args, **kwargs):
+    print(a)#10
+    print(args)#(20,30)
+    print(kwargs)#{'name:'Ali','age':23}
+
+test(
+    10,
+    20,
+    30,
+    name="Ali",
+    age=23
+)

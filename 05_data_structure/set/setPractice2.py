@@ -18,3 +18,21 @@ print(admin<=basic)
 frontend_team = {"Ali", "Sara"}
 backend_team = {"Ahmed", "Zain"}
 print(frontend_team.isdisjoint(backend_team))
+old_permissions = {
+    "read",
+    "write",
+    "delete"
+}
+
+new_permissions = {
+    "read",
+    "write",
+    "export",
+    "api_access"
+}
+removed = old_permissions-new_permissions
+added = new_permissions-old_permissions
+unchanged = old_permissions & new_permissions
+print("Removed permissions:", removed)
+print("Added permissions:", added)
+print("Unchanged permissions:", unchanged)

@@ -17,7 +17,7 @@ def save_data(data):
     """Save the student dictionary to the JSON file in a pretty format."""
     with open(DATA_FILE, 'w') as file:
         json.dump(data, file, indent=4)  # indent=4 makes it human-readable
-    print("📁 Data saved to file.")  # Optional feedback
+    print(" Data saved to file.")  # Optional feedback
 
 
 
@@ -67,7 +67,7 @@ def  main():
 
     # 3. LOAD data when the program starts
  Students = load_data()
- print(f"📂 Loaded {len(Students)} students from '{DATA_FILE}'.")
+ print(f" Loaded {len(Students)} students from '{DATA_FILE}'.")
  
  while True:
   print("========Student Managment=========")
